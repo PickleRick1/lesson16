@@ -1,0 +1,278 @@
+@import "null.css";
+.wrapper {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+
+}
+/*---------------------------------Общие блоки----------------------------------*/
+[class*="__container"] {
+	box-sizing: content-box;
+	margin: 0 auto;
+	max-width: 1230px;
+	padding: 0px 15px;
+}
+.page__appointment {
+}
+.appointment {
+
+}
+.appointment__container {
+	
+}
+
+
+.appointment__form {
+	display: flex;
+	flex-direction: column;
+	background: #5D62B5;
+	border-radius: 40px;
+	max-width: 585px;
+	margin: 0 auto;
+	padding: 76px 57px;
+}
+.appointment__header {
+	font-weight: 900;
+font-size: 36px;
+line-height: 117%;
+text-align: center;
+color: #FFFFFF;
+}
+.appointment__header:not(:last-child) {
+	margin: 0 0 43px 0;
+}
+.appointment__box{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 22px;
+	margin: 0 0 22px 0;
+}
+.appointment__input {
+	flex: 1 0 auto;
+	background:transparent;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	min-width: 224px;
+	min-height: 48px;
+	line-height: 150%;
+letter-spacing: 0.15px;
+padding: 15px 23px;
+color: #FFFFFF;
+}
+.appointment__input::placeholder,.appointment__textarea::placeholder{
+	color: #ffffff;
+}
+.select {
+	appearance: none;
+}
+.select option{
+	
+	background-color: #5D62B5;
+}
+.appointment__textarea {
+	flex: 1 1 100%;
+	background:transparent;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	min-width: 224px;
+	padding: 17px 23px;
+	min-height: 180px;
+	resize: none;
+	color: #ffffff;
+	margin: 0 0 30px 0;
+}
+.appointment__button {
+	background: #F2726F;;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-weight: 700;
+	line-height:170%;
+	display:flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.5px;
+	border: 1px solid  #F2726F;
+	padding: 5px 30px;
+	min-height: 48px;
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	margin-left: auto;
+}
+.appointment__button:hover{
+	background: transparent;
+}
+
+.page__summary {
+}
+.summary {
+	padding: 0 0 20px 0;
+	font-family: "Poppins", sans-serif;
+}
+.summary__container {
+}
+.summary__form {
+	padding: 17px 30px;
+	background: #F5F7FF;
+	max-width: 446px;
+	margin: 0 auto;
+}
+.summary__title {
+	font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+}
+.summary__title:not(:last-child) {
+	margin: 0 0 18px 0;
+}
+.summary__subtitle {
+	font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+.summary__subtitle:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.summary__hint {
+	font-size: 14px;
+line-height: 21px;
+color: #666666;
+}
+.summary__hint:not(:last-child) {
+	margin: 0 0 12px 0;
+}
+.summary__address *:not(:last-child) {
+	margin: 0 0 5px 0;
+}
+.summary__label {
+}
+.label {
+	font-weight: 600;
+font-size: 13px;
+line-height: 210%;
+color: #000000;
+}
+.summary__input {
+	width: 100%;
+	border: 1px solid #A2A6B0;
+border-radius: 4px;
+min-height: 50px;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+padding: 14px 17px;
+min-width: 200px;
+}
+.summary__rate {
+	margin: 0 0 10px 0;
+}
+.summary__label {
+}
+.summary__radio-rate {
+}
+.summary__input-radio {
+
+}
+.summary__description {
+	font-size: 14px;
+	line-height: 143%;
+	color: #000000;
+}
+.summary__discount:not(:last-child){
+	margin: 0 0 19px 0;
+}
+.summary__button{
+	font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+width: 100%;
+min-height: 50px;
+    border: 2px solid #0156ff;
+    border-radius: 50px;
+color: #0156FF;
+background:transparent;
+}
+
+.register {
+	padding: 0 0 20px 0;
+	font-family: "Poppins", sans-serif;
+}
+.register__container {
+}
+.register__form {
+	padding: 37px 57px;
+	background: #F5F7FF;
+	max-width: 564px;
+	margin: 0 auto;
+}
+.register__title {
+	font-weight: 600;
+font-size: 24px;
+line-height: 150%;
+color: #000000;
+}
+.register__title:not(:last-child) {
+	margin: 0 0 18px 0;
+}
+.register__subtitle {
+	font-size: 14px;
+	line-height: 30px;
+color: #000000;
+}
+.register__email:not(:last-child) {
+	margin: 0 0 6px 0;
+}
+.register__password {
+}
+.register__password:not(:last-child) {
+	margin: 0 0 30px 0;
+}
+.register__label {
+}
+.label {
+}
+.register__input {
+	width: 100%;
+	border: 1px solid #A2A6B0;
+border-radius: 4px;
+min-height: 50px;
+font-size: 14px;
+line-height: 20px;
+color: #000000;
+padding: 14px 17px;
+min-width: 200px;
+}
+.redister__links {
+	gap: 23px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.register__button {
+	background: #0156ff;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 50px;
+    min-height: 50px;
+}
+.register__link {
+	font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0156ff;
+}

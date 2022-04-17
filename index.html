@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Урок 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="page">
+			<div class="page__summary summary">
+				<div class="summary__container">
+					<form action="#" class="summary__form">
+						<h3 class="summary__title">Summary</h3>
+						<p class="summary__subtitle">Estimate Shipping and Tax</p>
+						<p class="summary__hint">Enter your destination to get a shipping estimate.</p>
+						<div class="summary__address">
+							<label for="country" class="summary__label label">Country</label>
+							<select name="country" id="country" class="summary__input">
+								<option value="1">Australia</option>
+								<option value="2">Not Australia</option>
+							</select>
+							<label for="state" class="summary__label label">State/Province</label>
+							<input type="text" name="state" id="state" class="summary__input">
+							<label for="zip" class="summary__label label">Zip/Postal Code</label>
+							<input type="text" id="zip" name="zip" class="summary__input">
+						</div>
+						<div class="summary__rate">
+							<div class="summary__label label">Standard Rate</div>
+							<div class="summary__radio-rate">
+								<input class="summary__input-radio" type="radio" name="rate1" id="rate1">
+								<label for="rate1" class="summary__description">Price may vary depending on the
+									item/destination. Shop Staff will contact you. $21.00</label>
+							</div>
+							<div class="summary__label label">Pickup from store</div>
+							<div class="summary__radio-rate">
+								<input class="summary__input-radio" type="radio" name="rate1" id="rate2">
+								<label for="rate2" class="summary__description">1234 Street Adress City Address, 1234
+									$0.00</label>
+							</div>
+						</div>
+						<p class="summary__subtitle">Apply Discount Code</p>
+						<div class="summary__discount">
+							<label for="discount" class="summary__label label">Enter discount code</label>
+							<input type="text" id="discount" name="discount" class="summary__input"
+								placeholder="Enter Discount code">
+
+						</div>
+						<button type="submit" class="summary__button">Apply Discount</button>
+					</form>
+				</div>
+			</div>
+			<div class="page__register register">
+				<div class="register__container">
+					<form action="#" class="register__form">
+						<h3 class="register__title">Registered Customers</h3>
+						<p class="register__subtitle">If you have an account, sign in with your email address.</p>
+						<div class="register__email">
+							<label for="email" class="register__label label">Email</label>
+							<input type="email" id="email" required name="email" class="register__input"
+								placeholder="Your Name">
+
+						</div>
+						<div class="register__password">
+							<label for="password" class="register__label label">Password</label>
+							<input type="password" id="password" required name="password" required
+								class="register__input" placeholder="Password">
+						</div>
+						<div class="redister__links">
+							<button type="submit" class="register__button">Sign in</button>
+							<a href="#" class="register__link">Forgot Your Password?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="page__appointment appointment">
+				<div class="appointment__container">
+
+					<form action="#" class="appointment__form">
+						<h3 class="appointment__header">Make an Appointment</h3>
+						<div class="appointment__box">
+							<input class='appointment__input' type="text" name="name" placeholder="Name">
+							<input class='appointment__input' type="email" name="email" placeholder="Email">
+							<input class='appointment__input' type="tel" name="phone" placeholder="Phone Number">
+							<select class='appointment__input select' id="select">
+								<option value="1">Select Service</option>
+								<option value="2">Select Service1</option>
+								<option value="3">Select Service2</option>
+							</select>
+						</div>
+						<textarea class="appointment__textarea"
+							placeholder="Tell us about your puppers include his/her name"></textarea>
+						<button class="appointment__button" type="submit">Make an Appointment</button>
+					</form>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+</body>
+
+</html>
